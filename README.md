@@ -1,3 +1,5 @@
+https://www.udemy.com/taming-big-data-with-apache-spark-hands-on/learn/v4/content
+
 “Big data" analysis is a hot and highly valuable skill – and this course will teach you the hottest technology in big data: Apache Spark. Employers including Amazon, EBay, NASA JPL, and Yahoo all use Spark to quickly extract meaning from massive data sets across a fault-tolerant Hadoop cluster. You'll learn those same techniques, using your own Windows system right at home. It's easier than you might think.
 
 Learn and master the art of framing data analysis problems as Spark problems through over 15 hands-on examples, and then scale them up to run on cloud computing services in this course. You'll be learning from an ex-engineer and senior manager from Amazon and IMDb.
