@@ -9,7 +9,7 @@ conf = SparkConf().setMaster("local").setAppName("RatingsHistogram")
 sc = SparkContext(conf = conf)
 
 # each line in text file will be one value in RDD
-linesRDD = sc.textFile("file:///Users/cbohara/code/taming_big_data_spark/ml-100k/u.data")
+linesRDD = sc.textFile("file:///Users/cbohara/code/taming_big_data_spark/data/ml-100k/u.data")
 
 # for each line in lines RDD, split the line into a list of words
 # then return the 3rd word (movie rating) as the new value
