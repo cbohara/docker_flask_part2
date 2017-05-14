@@ -2,7 +2,7 @@ from datetime import datetime, time
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.getOrCreate()
 
-data_path = "/home/cohara/code/dataalgebradata/tpch/10G/16/"
+data_path = "s3://aqapop/DataAlgebraData/tpch/100G/1024/"
 
 data_frames = {}
 tables = ["customer", "orders", "lineitem", "supplier", "nation", "region", "part", "partsupp"]
