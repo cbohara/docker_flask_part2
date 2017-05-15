@@ -24,6 +24,7 @@ minTempsRDD = parsedLinesRDD.filter(lambda x: "TMIN" in x[1])
 # from our RDD containging only min temp rows of data, create new RDD with only (stationID, temperature)
 stationTempsRDD = minTempsRDD.map(lambda x: (x[0], x[2]))
 # for each each weather station, compare two temperatures until you find the minimum temp per weather station   
+# reduceByKey takes the accumulated value for the given key and summing it with the next value of that key
 minTempsRDD = stationTempsRDD.reduceByKey(lambda x, y: min(x,y))
 # use collect action to return (stationID, minimum temperature in the year 1800) as a list of tuples
 results = minTempsRDD.collect()
