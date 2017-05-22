@@ -1,3 +1,4 @@
 metastore_db/
-derby.log
 data/
+derby.log
+stdout.txt
